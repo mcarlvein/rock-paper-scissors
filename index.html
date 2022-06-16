@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
 </head>
 <body>
-    
+    <button rps-option="scissors">Scissors</button>
+    <button rps-option="paper">Paper</button>
+    <button rps-option="rock">Rock</button>
+    <div id="outcome">
+        Click an option to play!
+    </div>
+    <div id="scores">
+        <div>Player Score <span id="playerScore">0</span></div>
+        <div>Computer Score <span id="computerScore">0</span></div>
+    </div>
+    <div>
+        <h1 id="finalOutcome"></h1>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
